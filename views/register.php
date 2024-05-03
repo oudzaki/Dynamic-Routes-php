@@ -11,9 +11,9 @@
 			<div id="login-row" class="row justify-content-center align-items-center" >
 				<div id="login-column" class="col-md-6">
 					<div id="login-box" class="col-md-12">
-						<form id="login-form" class="form" action="?action=register" method="post">
+						<form id="login-form" class="form" action="/register" method="post">
 							<h3 class="txt-center text-info">Register</h3>
-							<div class="form-group">
+							<div class="form-group"></div>
 								<label for="username" class="txt-info">Username:</label><br>
 								<input type="text" name="username" id="username" class="form-control">
 							</div>
@@ -26,7 +26,7 @@
 								<input type="submit" name="RegisterSubmit" class="btn btn-info btn-md" value="submit" />
 							</div>
 							<div id="reg_link" class="text-right mt-5">
-								<a href="?action=login" class="text-info">Login here</a>
+								<a href="/login" class="text-info">Login here</a>
 							</div>
 							</div>
 						</form>

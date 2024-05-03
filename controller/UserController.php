@@ -3,6 +3,11 @@
 class UserController {
 	public $model;
 
+	public static function view($view, $data = NULL)
+    {
+        require "resources/views/" . $view . ".php";
+    }
+
 	public function checkUserAccess(){
 		if(!isset($_SESSION['userLogInStatus'])){
 			require_once('../views/login.php');
